@@ -6,8 +6,8 @@ public class Cheking extends Account {
 	int debitCardPIN;
 
 // Constructor to initialize checking account properties
-	public Cheking(String name) {
-		super(name);
+	public Cheking(String name, String sSN, double initDeposit) {
+		super(name, sSN, initDeposit);
 		System.out.println("New Checking Account!");
 	}
 	
