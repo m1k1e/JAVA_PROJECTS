@@ -33,4 +33,10 @@ public void showInfo() {
 	//System.out.println("ACCOUNT TYPE: Savings!");
 }
 
+@Override
+public void setRate() {
+	//System.out.println("Implements rate for Savings");
+	rate = getBaseRate() - .25;
+}
+
 }
