@@ -8,7 +8,7 @@ public class BankAccountApp {
 	
 	Savings savacc1 = new Savings("Rich Lowe", "4566557897", 2500);
 	
-	savacc1.compound();
+	//savacc1.compound();
 	
 	savacc1.showInfo();
 	
